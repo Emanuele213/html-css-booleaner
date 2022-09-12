@@ -29,7 +29,23 @@ section{
     background-color:  #faf60b;
 }
 
-th{
-    background-color: #20a9e5;
-    
+table{
+    width: 100%;
 }
+
+th{
+    text-align: left;
+    color: white;
+    width: 33.3%;
+    background-color: #20a9e5;
+}
+
+td{
+    width: 33.3%;
+    background-color: #b1e5f2;
+}
+
+#white{
+    background-color: white;
+}
+
