@@ -1,11 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
 }
 
-.img{
+.img-logo{
     padding-top: 100px;
-    width: 20%;
+    width: 250px;
 }
 
 h1{
@@ -21,6 +25,10 @@ h1{
     color:cyan;
 }
 
+.conteiner{
+    margin-left: 20px; 
+}
+
 section{
     font-size: 20px;
 }
@@ -31,18 +39,18 @@ section{
 
 table{
     width: 100%;
+    border-collapse: collapse;
 }
 
 th{
     text-align: left;
     color: white;
-    width: 33.3%;
+    width: 33%;
     background-color: #20a9e5;
 }
 
 td{
-    width: 33.3%;
-    background-color: #b1e5f2;
+    background-color: #b1e5f2;   
 }
 
 .white{
@@ -54,7 +62,7 @@ td{
     color:gray;
 }
 
-.img3{
+.img-pc{
     background-image: url("../img/monitor.jpg");
     padding-top: 100px;
     padding-bottom: 100px;
@@ -62,9 +70,10 @@ td{
     color: white;
     font-size: 20px;
     margin-bottom: 0;
+    position
 }
 
-.img4{
+.img-graph{
     background-image: url("../img/graph.jpg");
     padding-top: 100px;
     padding-bottom: 100px;
@@ -73,4 +82,3 @@ td{
     font-size: 20px;
     margin-top: 0;
 }
-
